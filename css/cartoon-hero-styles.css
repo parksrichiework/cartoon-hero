@@ -3,3 +3,10 @@ h1 {
   font-size: 30px;
   color: green;
 }
+
+.big{
+  font-size: 60px;
+}
+.uppercase{
+  text-transform: uppercase;
+}
