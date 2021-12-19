@@ -1,16 +1,96 @@
-
 body{
-  background-color: salmon;
+  background-color: #00D128;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: auto;
+  font-family: 'Staatliches', cursive;
+  color: darkgreen;
 }
 
-h1 {
-  font-size: 30px;
-  color: green;
+body a{
+  text-decoration: none;
+  color: #F1E853;
+  transition: 0.3s ease-in-out;
 }
 
-.big{
-  font-size: 60px;
+body a:hover{
+  color:white;
+  }
+
+header{
+background-color: #313131;
+text-align: center;
+padding-top: 20px;
+padding-bottom:0px;
 }
-.uppercase{
-  text-transform: uppercase;
+
+header img{
+  border-radius: 50%;
+  border: 5px solid #F1E853;
+  padding: 10px 10px;
+}
+header h1 {
+  font-size: 50px;
+  color: #F7F5D0;
+  padding-bottom: 20px;
+  margin-top:auto;
+}
+
+main div p{
+  margin-right: 10px;
+  color: white;
+}
+
+main{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main img{
+  max-width: 100%;
+}
+
+
+main ul li{
+  list-style: none;
+  padding: 10px 10px;
+}
+
+.ul-characteristics{
+  line-height: 20px;
+}
+
+h2{
+  margin: 30px 0px 10px;
+}
+
+div ul li{
+  text-align: center;
+  font-size: 20px;
+}
+
+div.friends p{
+  text-align: right;
+}
+
+
+.caption{
+  font-size: 20px;
+}
+
+p{
+  font-size: 20px;
+}
+
+p.caption{
+  color: gray;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+footer{
+  text-align: center;
+  background-color: yellow;
+  padding: 10px 10px;
 }
