@@ -3,6 +3,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   margin-top: auto;
+  margin-bottom: 0px;
   font-family: 'Staatliches', cursive;
   color: darkgreen;
   display:block;
@@ -126,6 +127,7 @@ footer {
   text-align: center;
   background-color: yellow;
   padding: 10px 10px;
+  margin-bottom: 0px;
 }
 
 /* classes start */
@@ -139,7 +141,7 @@ footer {
 
 
 
-/* friends hover optins */
+/* friends hover options */
 /* uravity */
 li.friend-img-uravity {
   background: none;
