@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #00D128;
   margin-left: 0;
   margin-right: 0;
@@ -7,90 +7,143 @@ body{
   color: darkgreen;
 }
 
-body a{
+body a {
   text-decoration: none;
   color: #F1E853;
   transition: 0.3s ease-in-out;
 }
 
-body a:hover{
-  color:white;
-  }
-
-header{
-background-color: #313131;
-text-align: center;
-padding-top: 20px;
-padding-bottom:0px;
+body a:hover {
+  color: white;
 }
 
-header img{
+header {
+  background-color: darkgreen;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+header img {
   border-radius: 50%;
   border: 5px solid #F1E853;
   padding: 10px 10px;
 }
+
 header h1 {
   font-size: 50px;
   color: #F7F5D0;
   padding-bottom: 20px;
-  margin-top:auto;
+  margin-top: auto;
 }
 
-main div p{
+main div p {
   margin-right: 10px;
   color: white;
 }
 
-main{
+main {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-main img{
+main img {
   max-width: 100%;
 }
 
-
-main ul li{
+main ul li {
   list-style: none;
   padding: 10px 10px;
 }
 
-.ul-characteristics{
+.about-img{
+  background:white;
+  transition: 0.3s ease-in-out;
+}
+.about-img:hover{
+  opacity: 60%;
+  }
+
+.ul-characteristics {
   line-height: 20px;
 }
 
-h2{
+h2 {
   margin: 30px 0px 10px;
 }
 
-div ul li{
+div ul li {
   text-align: center;
   font-size: 20px;
 }
 
-div.friends p{
-  text-align: right;
+div.friends p {
+  text-align: center;
+  background-color: darkgreen;
+  padding: 10px 50px;
+  width: 100%;
 }
 
-
-.caption{
+p {
   font-size: 20px;
 }
 
-p{
-  font-size: 20px;
-}
-
-p.caption{
+p.caption {
   color: gray;
   font-style: italic;
   margin-top: 0px;
+  text-align: right;
 }
 
-footer{
+footer {
   text-align: center;
   background-color: yellow;
   padding: 10px 10px;
+}
+
+/* classes start */
+.friends-list {
+  padding: 0px;
+}
+
+.caption {
+  font-size: 20px;
+}
+
+
+
+/* friends hover optins */
+/* uravity */
+li.friend-img-uravity {
+  background: none;
+  transition: 1.5s ease-in-out;
+
+}
+
+li.friend-img-uravity:hover {
+  transform:rotate(360deg);
+}
+
+/* deku */
+li.friend-img-deku {
+  background: none;
+  transition: 0.3s ease-in-out;
+  z-index: 10;
+}
+
+li.friend-img-deku:hover {
+  background: darkgreen;
+  transform: scale(1.75);
+
+}
+
+/* invisible girl */
+li.friend-img-ig {
+  background: none;
+  transition: 0.3s ease-in-out;
+}
+
+li.friend-img-ig:hover {
+  opacity: 0%;
 }
